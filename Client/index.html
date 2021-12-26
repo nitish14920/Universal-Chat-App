@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
     <script src="./js/script.js"></script>
     <title>Universal Chat App</title>
   </head>
@@ -17,7 +18,7 @@
       <div class="message left">Hema:Hi my name is Hema</div>
     </div>
     <div class="form_container">
-      <form action="#">
+      <form id="message_form" action="#">
         <input type="text" name="message_send" id="message_send" />
         <button type="submit">Send</button>
       </form>
