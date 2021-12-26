@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(rgb(255, 255, 255), rgb(45, 45, 45));
+  background: linear-gradient(rgb(190, 78, 78), rgb(240, 207, 25));
   height: 100vh;
 }
 #logo {
@@ -14,21 +14,34 @@ body {
   height: 65vh;
   margin: auto;
   padding: 10px;
-  background: linear-gradient(rgb(255, 255, 255), rgb(19, 117, 121));
+  border-radius: 5px;
+  overflow-y: auto;
+  background: linear-gradient(rgb(186, 240, 217), rgb(18, 167, 130));
 }
 .message {
-  background: linear-gradient(rgb(45, 45, 45), rgb(255, 255, 255));
+  background: linear-gradient(rgb(134, 167, 133), rgb(99, 201, 95));
   padding: 5px;
   border-radius: 5px;
+  margin: 3px;
 }
 .left {
-  width: fit-content;
+  float: left;
   clear: both;
 }
 .right {
-  width: fit-content;
   float: right;
+  clear: both;
 }
 .form_container {
   text-align: center;
+}
+#message_send {
+  height: 30px;
+  width: 60vw;
+  border-radius: 5px;
+}
+.send_btn {
+  height: 30px;
+  width: 100px;
+  border: none;
 }
