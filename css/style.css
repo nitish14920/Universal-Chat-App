@@ -2,6 +2,12 @@ body {
   background: linear-gradient(rgb(190, 78, 78), rgb(240, 207, 25));
   height: 100vh;
 }
+h2 {
+  margin: 0px;
+}
+.nav {
+  text-align: center;
+}
 #logo {
   display: block;
   height: 50px;
@@ -39,9 +45,33 @@ body {
   height: 30px;
   width: 60vw;
   border-radius: 5px;
+  margin-top: 10px;
 }
 .send_btn {
   height: 30px;
   width: 100px;
   border: none;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 500px) {
+  #logo {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 10px;
+  }
+  .message {
+    font-size: 0.7rem;
+  }
+  .container {
+    max-width: 80vw;
+    height: 80vh;
+  }
+  #message_send {
+    width: 55vw;
+    height: 25px;
+  }
+  .send_btn {
+    height: 30px;
+    width: 80px;
+  }
 }
